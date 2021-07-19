@@ -1,15 +1,16 @@
 import IntroductionHero from "./components/IntroductionHero";
 import Parallax from "./components/Parallax";
 import Projects from "./components/Projects";
-
+import Footer from "./components/Footer";
+import "./index.css"
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <IntroductionHero />
-      <Parallax />
+      <IntroductionHero /> 
+      <Parallax /> 
       <Projects />
+      <Footer />
     </div>
   );
 }

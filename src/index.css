@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.aligner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title-container {
+  height: 50px;
+}
+
+.title-styles {
+  font-family: 'Raleway', sans-serif;
+  font-size: 250%;
+}
+
+.header-icon {
+  height: 150px;
+  width: 150px;
+}
+
+header {
+  position: relative;
+  height: 520px;
+  min-height: 450px;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  background-color: #ece4db;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+
+header h1 {
+  font-size: 400%;
+  text-align: center;
+  font-weight: 600 !important;
+  color: #353239;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 auto 18px auto;
+  width: 100%;
+}
+
+.parallax {
+  min-height: 100vh;
+  background-color: #d8e2dc;
+}
+
+.projects {
+  min-height: 100vh;
+}
+
+/* footer CSS */
+.footer {
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: antiquewhite;
+}
+/*# sourceMappingURL=index.css.map */
