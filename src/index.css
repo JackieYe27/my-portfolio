@@ -40,7 +40,7 @@ body {
 header {
   position: relative;
   height: 520px;
-  min-height: 450px;
+  min-height: 100vh;
   width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -60,6 +60,88 @@ header h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0 auto 18px auto;
   width: 100%;
+}
+
+#about {
+  background: #fff;
+  overflow: hidden;
+}
+
+#about h1 {
+  padding-top: 5%;
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+  text-align: center;
+}
+
+.foto img {
+  display: block;
+  width: 100%;
+}
+
+.foto div {
+  background: #ffffff;
+  display: inline-block;
+  margin: 0 auto 5% auto;
+  padding: 10px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.foto div:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+
+.foto div:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.polaroid img {
+  display: block;
+  max-width: 250px;
+}
+
+.polaroid span {
+  background: #ffffff;
+  display: inline-block;
+  margin: 55px 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.link-href {
+  color: black;
+}
+
+.wave {
+  font-size: 160%;
+}
+
+.font-trebuchet {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .parallax {
