@@ -23,11 +23,14 @@ export const projects = [
   {
     name: "Detect",
     link: "https://face-rec-frontend-app.herokuapp.com/",
-    description: "An application that is inspired from watching a korean drama about a startup that became huge with AI detection. I tried my best and managed to find the face of pictures with one face.",
+    description: "An application that is inspired from watching a korean drama about a startup that became huge with AI detection. In creating this app I used Clarifai's API for single face detection on given images.",
     startDate: 2020,
     photoLink: "https://i.ibb.co/GVPRLYK/Screen-Shot-2021-07-18-at-10-47-07-PM.png",
     techIcons: [
-      
+      "devicon-react-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-nodejs-plain colored",
+      "devicon-postgresql-plain colored"
     ]
   },
 ]
