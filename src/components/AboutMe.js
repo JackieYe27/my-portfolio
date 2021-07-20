@@ -37,7 +37,7 @@ const AboutMe = () => {
               </div>
             </div>
           
-            <div className="col-md-8 center" style={{paddingTop:"5%"}}>
+            <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
@@ -63,7 +63,7 @@ const AboutMe = () => {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "140%",
                       lineHeight: "200%",
                     }}
                   >

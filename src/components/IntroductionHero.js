@@ -16,7 +16,7 @@ const IntroductionHero = () => {
       <div className="row aligner" style={{height: "100%"}}>
         <div className="col-md-12">
           <div>
-          <span class="iconify header-icon" data-icon="mdi:ghost" data-inline="false"></span>           
+          <span className="iconify header-icon" data-icon="mdi:ghost" data-inline="false"></span>           
           <br />
             <h1 className="mb-0">
               <Typical steps={["Jackie Ye"]} wrapper="p" />
