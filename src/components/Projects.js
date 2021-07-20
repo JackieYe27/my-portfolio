@@ -9,6 +9,11 @@ const Projects = () => {
     setShowModal(false);
   }
 
+  const onClickGetName = (e) => {
+    setShowModal(true);
+    console.log("target");
+  }
+
   let listProjects = projects.map(project => {
     const {name, startDate, photoLink} = project;
     return (
@@ -18,7 +23,7 @@ const Projects = () => {
         style={{ cursor: "pointer"}}
       >
         <span className="portfolio-item d-block">
-          <div className="foto" onClick={() => setShowModal(true)}>
+          <div className="foto" onClick={(e) => onClickGetName(e.target)}>
             <div>
               <img
                 src={photoLink}
@@ -50,9 +55,10 @@ const Projects = () => {
           </div>
         </div>
         <ProjectDetailsModal
-          showModa={showModal}
+          showModal={showModal}
           show={setShowModal}
           closeModal={closeDetailModal}
+          projects={projects}
         />
       </div>
     </section>
