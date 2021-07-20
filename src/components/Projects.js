@@ -4,17 +4,18 @@ import ProjectDetailsModal from "./ProjectDetailsModal";
 
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
+  const [value, setValue] = useState(0);
 
   const closeDetailModal = () => {
     setShowModal(false);
   }
 
-  const onClickGetName = (e) => {
+  const onClickGetIndex = (index) => {
     setShowModal(true);
-    console.log("target");
+    setValue(index);
   }
 
-  let listProjects = projects.map(project => {
+  let listProjects = projects.map((project,i) => {
     const {name, startDate, photoLink} = project;
     return (
       <div
@@ -23,7 +24,7 @@ const Projects = () => {
         style={{ cursor: "pointer"}}
       >
         <span className="portfolio-item d-block">
-          <div className="foto" onClick={(e) => onClickGetName(e.target)}>
+          <div className="foto" onClick={() => onClickGetIndex(i)}>
             <div>
               <img
                 src={photoLink}
@@ -56,7 +57,7 @@ const Projects = () => {
         </div>
         <ProjectDetailsModal
           showModal={showModal}
-          show={setShowModal}
+          value={value}
           closeModal={closeDetailModal}
           projects={projects}
         />

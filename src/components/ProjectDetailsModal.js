@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 
 
-const ProjectDetailsModal = ({ showModal, show, closeModal, projects }) => {
+const ProjectDetailsModal = ({ showModal, value, closeModal, projects }) => {
   const [proj, setProj] = useState(projects);
-  const [value, setValue] = useState(0);
-
   
   const {name, link, description, photoLink, techIcons } = proj[value];
   return (
