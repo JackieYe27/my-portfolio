@@ -5,6 +5,18 @@ export const titles = [
   "Frontend Software Engineer",
 ]
 
+export const skills = [
+  {name:"React", icon:"devicon-react-original-wordmark colored"},
+  {name:"JavaScript", icon:"devicon-javascript-plain colored"},
+  {name:"Node.JS", icon:"devicon-nodejs-plain colored"},
+  {name:"PostgreSQL", icon:"devicon-postgresql-plain colored"},
+  {name:"MongoDB", icon:"devicon-mongodb-plain colored"},
+  {name:"MySQL", icon:"devicon-mysql-plain colored"},
+  {name:"Bootstrap", icon:"devicon-bootstrap-plain colored"},
+  {name:"Material UI", icon:"devicon-materialui-plain colored"},
+
+]
+
 export const projects = [
   {
     name: "YourSunday",
@@ -31,6 +43,18 @@ export const projects = [
       "devicon-javascript-plain colored",
       "devicon-nodejs-plain colored",
       "devicon-postgresql-plain colored"
+    ]
+  },
+  {
+    name: "PWA Weather App",
+    link: "https://clever-cray-3021a6.netlify.app/",
+    description: "A progressive web application that will return the current weather in any given location. Using Axios the weather data is fetched from OpenWeather API. A first look into PWAs and their advantages.",
+    startDate: 2020,
+    photoLink: "https://i.ibb.co/przfZT3/Screen-Shot-2021-07-21-at-6-01-35-PM.png",
+    techIcons: [
+      "devicon-react-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-css3-plain",
     ]
   },
 ]

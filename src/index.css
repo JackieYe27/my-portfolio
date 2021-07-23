@@ -156,6 +156,14 @@ header h1 {
   color: white;
 }
 
+#skills {
+  background: #1F1F1F;
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 10%;
+}
+
 .skills-tile {
   background-color: rgba(248, 245, 244, 0.05);
   padding: 10px 10px 5px 10px;
