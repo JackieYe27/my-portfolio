@@ -6,7 +6,7 @@ export const titles = [
 ]
 
 export const skills = [
-  {name:"React", icon:"devicon-react-original-wordmark colored"},
+  {name:"React", icon:"devicon-react-original colored"},
   {name:"JavaScript", icon:"devicon-javascript-plain colored"},
   {name:"Node.JS", icon:"devicon-nodejs-plain colored"},
   {name:"PostgreSQL", icon:"devicon-postgresql-plain colored"},

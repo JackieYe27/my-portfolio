@@ -71,7 +71,7 @@ const AboutMe = () => {
                     <span className="wave">Hi :) </span>
                     <br />
                     <br /> 	
-                    👋  My name is Jackie! I started off as a self taught software engineer but continued my education with attending and graduating Hack Reactor in 
+                    👋  My name is Jackie! I started off as a self taught software engineer but continued my education with attending and graduating a coding bootcamp called Hack Reactor in 
                     San Francisco. I enjoy working with the latest front end frameworks like React and am currently on a mission to learn more. But do not doubt my 
                     back end knowledge either! I have experience in the combo Node.js and Express as well as a few no SQL + SQL databases.
                   </div>
