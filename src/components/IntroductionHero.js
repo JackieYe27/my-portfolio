@@ -30,7 +30,7 @@ const IntroductionHero = () => {
               <HeaderTitleAnimation />
             </div>
             <h1 className="mb-0" style={{cursor: "pointer"}} onClick={onResumeClick}>
-              <Typical steps={["Resume"]} wrapper="p"/>
+              <Typical steps={["RESUME"]} wrapper="p"/>
             </h1>
           </div>
         </div>
