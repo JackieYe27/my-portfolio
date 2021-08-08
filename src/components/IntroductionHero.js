@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import {titles} from "../data";
+import pdf from "../Jackie-Ye-Resume.pdf";
 
 const IntroductionHero = () => {
 
@@ -9,7 +10,11 @@ const IntroductionHero = () => {
     return (
       <Typical className="title-styles" steps={returnedTitles} loop={50}/>
     )
-  })
+  });
+
+   const onResumeClick = () => {
+    window.open(pdf);
+  }
   
   return (
     <header id="home" style={{height: window.innerHeight-140, display: "block"}}>
@@ -24,6 +29,9 @@ const IntroductionHero = () => {
             <div className="title-container">
               <HeaderTitleAnimation />
             </div>
+            <h1 className="mb-0" style={{cursor: "pointer"}} onClick={onResumeClick}>
+              <Typical steps={["Resume"]} wrapper="p"/>
+            </h1>
           </div>
         </div>
       </div>
