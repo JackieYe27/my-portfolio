@@ -5,7 +5,7 @@ import { Modal } from "react-bootstrap";
 const ProjectDetailsModal = ({ showModal, value, closeModal, projects }) => {
   const [proj, setProj] = useState(projects);
   
-  const {name, link, description, photoLink, techIcons } = proj[value];
+  const {name, link, description, photoLink, techIcons, github } = proj[value];
   return (
     <Modal 
     size="lg"
@@ -62,6 +62,7 @@ const ProjectDetailsModal = ({ showModal, value, closeModal, projects }) => {
             ></i>
           </a>
         ) : null}
+        <a href={github} className="link-href"><i style={{ marginLeft: "10px" }} className="devicon-github-original colored"></i></a>
       </h3>
       <p className="modal-description" style={{fontSize:"140%"}}>{description}</p>
       <div className="col-md-12 text-center">

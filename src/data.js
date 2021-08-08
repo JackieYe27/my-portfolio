@@ -30,7 +30,8 @@ export const projects = [
       "devicon-redux-original colored",
       "devicon-mongodb-plain-wordmark",
       "devicon-nodejs-plain colored"
-    ]
+    ],
+    github: "https://github.com/JackieYe27/YourSunday"
   },
   {
     name: "Detect",
@@ -43,20 +44,33 @@ export const projects = [
       "devicon-javascript-plain colored",
       "devicon-nodejs-plain colored",
       "devicon-postgresql-plain colored"
-    ]
+    ],
+    github: "https://github.com/JackieYe27/facerecognitionapp"
   },
   {
     name: "PWA Weather App",
     link: "https://clever-cray-3021a6.netlify.app/",
-    description: "A progressive web application that will return the current weather in any given location. Using Axios the weather data is fetched from OpenWeather API. A first look into PWAs and their advantages.",
+    description: "A progressive web application that will return the current weather in any given location. Using Axios, the weather data is fetched from OpenWeather API. A first look into PWAs and their advantages.",
     startDate: 2020,
     photoLink: "https://i.ibb.co/przfZT3/Screen-Shot-2021-07-21-at-6-01-35-PM.png",
     techIcons: [
       "devicon-react-original-wordmark colored",
       "devicon-javascript-plain colored",
       "devicon-css3-plain",
-    ]
+    ],
+    github: "https://github.com/JackieYe27/pwa-weather-app"
   },
+  {
+    name: "Stock Photos App",
+    link: "https://jovial-fermi-fa4c6b.netlify.app/",
+    description: "An application that lets you search through free stock photos to use on all forms of social platforms. Using the global fetch method to grab data from Unsplash API, beautiful photos can be browsed through with a simple and easy platform.",
+    startDate: 2021,
+    photoLink: "https://i.ibb.co/PWmqwpF/Screen-Shot-2021-08-01-at-6-17-23-PM.png" ,
+    techIcons: [
+      "devicon-react-original-wordmark colored",
+      "devicon-javascript-plain colored",
+      "devicon-css3-plain",
+    ],
+    github: "https://github.com/JackieYe27/stock-photos-app"
+  }
 ]
-
-
