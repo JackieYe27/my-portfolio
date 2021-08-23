@@ -1,14 +1,11 @@
-import React, {Component} from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import Badge from "react-bootstrap/Badge";
+import React from "react";
 
 const Timeline = () => {
+ 
   return (
-    <div>Timeline</div>
+    <div>
+      TBD...
+    </div>
   )
 }
 

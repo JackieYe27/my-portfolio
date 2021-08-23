@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import {titles} from "../data";
-import pdf from "../Jackie-Ye-Resume.pdf";
+import pdf from "../Jackie Ye Resume.pdf";
 
 const IntroductionHero = () => {
 

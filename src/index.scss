@@ -354,12 +354,28 @@ img {
 }
 
 /* footer CSS */
-.footer {
-  height: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: antiquewhite;
+footer {
+	background: #D7CAAA;
+	min-height: 70px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	color: black;
+	position: relative;
+	text-align: center;
+}
+
+footer a,
+footer a:visited {
+	color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
+	color: rgb(0, 0, 0);
+}
+
+.social-links {
+	margin-top: 50px;
+	font-size: 22px;
 }

@@ -3,7 +3,6 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
-import Timeline from "./components/Timeline";
 const App = () => {
   return (
     <div className="App">
@@ -11,7 +10,6 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Skills />
-      <Timeline />
       <Footer />
     </div>
   );
