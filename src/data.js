@@ -21,7 +21,7 @@ export const projects = [
   {
     name: "YourSunday",
     link: "https://yoursundayapp.herokuapp.com/",
-    description: "The most expanded application I had the opportunity to work on. Application handles a variety of needs involving baby accessories and clothing.",
+    description: "The most expanded application I had the opportunity to work on. Application is created with a MERN stack. Functionality includes admin control over products and users. Paypal API is also incorporated for a secure payment process.",
     startDate: 2021,
     photoLink: "https://i.ibb.co/LgxPn4j/Screen-Shot-2021-07-18-at-10-42-50-PM.png",
     techIcons: [
